@@ -1,0 +1,9 @@
+data_to_insert = [[1110, 'EUR', 'EUR', 315.18 , 'TRANSFER'], [1111, 'GBP', 'GBP', 1011.00 , 'CARD_TRANSACTION'],
+                 [1112, 'USD', 'GBP', 455.00 , 'DIRECT_DEBIT'], [1113, 'EUR', 'GBP', 1011.00 , 'TRANSFER'],
+                 [1114, 'USD', 'USD', 2223.00 , 'CARD_TRANSACTION']]
+
+ columns=['TRANSACTION_ID',
+                     'SOURCE_CURRENCY',
+                     'TARGET_CURRENCY',
+                     'AMOUNT_IN_GBP',
+                     'TYPE']
